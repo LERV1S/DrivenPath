@@ -70,7 +70,7 @@ def write_to_csv(file_path: str, rows: int) -> None:
         rows (int): The number of fake user records to generate. 
     """ 
     # Create a Faker instance with Romanian data. 
-    fake = create_data("ro_RO") 
+    fake = create_data("es_MX") 
      
     # Define the CSV headers. 
     headers = [ 
